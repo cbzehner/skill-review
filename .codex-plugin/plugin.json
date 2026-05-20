@@ -1,0 +1,24 @@
+{
+  "name": "review",
+  "version": "0.1.0",
+  "description": "Role-based review router for complexity, architecture, security, design, accessibility, docs, spec, and release checks.",
+  "author": {
+    "name": "cbzehner",
+    "email": "chris@cbzehner.com",
+    "url": "https://github.com/cbzehner"
+  },
+  "homepage": "https://github.com/cbzehner/skill-review",
+  "repository": "https://github.com/cbzehner/skill-review",
+  "license": "MIT",
+  "keywords": ["review", "complexity", "architecture", "security", "design", "accessibility"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Review",
+    "shortDescription": "Role-based review router.",
+    "longDescription": "Routes review requests by role and preserves existing review guidance as focused references.",
+    "developerName": "cbzehner",
+    "category": "Review",
+    "capabilities": ["Review"],
+    "websiteURL": "https://github.com/cbzehner/skill-review"
+  }
+}
