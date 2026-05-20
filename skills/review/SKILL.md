@@ -32,6 +32,15 @@ Lead with findings. Cite files, lines, commands, specs, or screenshots where pos
 | `spec` | diff vs PRD/issue/plan acceptance criteria | inline role below |
 | `release` | readiness, migration, rollback, deploy risk | inline role below |
 
+## Handoffs
+
+- If there is no concrete artifact to review, route to `plan`, `design`, or `counsel` based on what is missing.
+- If a finding depends on reproducing an unexplained failure, route to `diagnose`.
+- If a finding requires multi-step implementation work, route to `plan`.
+- If a finding is really glossary, naming, or ADR drift, route to `domain-model update`.
+- If a finding should prevent future mistakes, route to `repo-memory learning`.
+- If reviewing UI before delivery, run both `--as design` and `--as accessibility`.
+
 ## Inline Roles
 
 ### Architecture
