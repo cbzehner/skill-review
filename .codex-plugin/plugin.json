@@ -1,24 +1,29 @@
 {
   "name": "review",
-  "version": "0.1.0",
-  "description": "Role-based review router for complexity, architecture, security, design, accessibility, docs, spec, and release checks.",
+  "version": "1.0.0",
+  "description": "Run focused role-based reviews. Use when the user asks for code review, architecture review, complexity/simplification review, security review, design or accessibility review, docs review, spec alignment review, release readiness, or asks to review a branch/diff/plan with a specific lens.",
   "author": {
     "name": "cbzehner",
-    "email": "chris@cbzehner.com",
     "url": "https://github.com/cbzehner"
   },
   "homepage": "https://github.com/cbzehner/skill-review",
   "repository": "https://github.com/cbzehner/skill-review",
   "license": "MIT",
-  "keywords": ["review", "complexity", "architecture", "security", "design", "accessibility"],
+  "keywords": [
+    "review",
+    "agent-skill"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Review",
-    "shortDescription": "Role-based review router.",
-    "longDescription": "Routes review requests by role and preserves existing review guidance as focused references.",
+    "shortDescription": "Run focused role-based reviews. Use when the user asks for code review, architecture review, complexity/simplificatio...",
+    "longDescription": "Run focused role-based reviews. Use when the user asks for code review, architecture review, complexity/simplification review, security review, design or accessibility review, docs review, spec alignment review, release readiness, or asks to review a branch/diff/plan with a specific lens.",
     "developerName": "cbzehner",
-    "category": "Review",
-    "capabilities": ["Review"],
+    "category": "Reasoning",
+    "capabilities": [
+      "Reasoning",
+      "Review"
+    ],
     "websiteURL": "https://github.com/cbzehner/skill-review"
   }
 }
