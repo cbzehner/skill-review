@@ -49,6 +49,10 @@ LICENSE
 
 These repos are public. Keep private repo names, secrets, customer data, raw logs, cookies, and absolute filesystem paths out of examples.
 
+## Credits
+
+- The `--as deep` lens (call-path reading, provenance tracing, and the Ref / Surface / Bug / Cause / Provenance / Best-fix / Refactor / Proof / Risk template) is adapted from Peter Steinberger's [`github-deep-review`](https://github.com/steipete/agent-scripts/tree/main/skills/github-deep-review) skill.
+
 ## License
 
 MIT
