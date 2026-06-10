@@ -24,15 +24,17 @@ Lead with findings. Cite files, lines, commands, specs, or screenshots where pos
 
 | Role | Use for | Reference |
 |---|---|---|
-| `complexity` | overengineering, maintainability, simplify sweeps | [references/complexity.md](references/complexity.md) |
+| `complexity` | overengineering, maintainability, simplify sweeps | the `complexity-guard` skill (`~/.claude/skills/complexity-guard/SKILL.md`) owns this rubric |
 | `architecture` | boundaries, module shape, coupling, deep modules, alignment | inline role below |
 | `security` | auth, secrets, permissions, injection, data exposure | inline role below |
-| `design` | UI/UX critique and visual quality | [references/design.md](references/design.md) |
-| `accessibility` | WCAG, keyboard, semantics, focus, contrast | [references/accessibility.md](references/accessibility.md) |
+| `design` | UI/UX critique and visual quality | the `design` skill's critique guidance (`~/.claude/skills/design/references/critique.md`) |
+| `accessibility` | WCAG, keyboard, semantics, focus, contrast | the `design` skill's accessibility guidance (`~/.claude/skills/design/references/accessibility.md`) |
 | `docs` | README, guides, API docs, release notes | inline role below |
 | `spec` | diff vs PRD/issue/plan acceptance criteria | inline role below |
 | `release` | readiness, migration, rollback, deploy risk | inline role below |
 | `deep` | bug-fix or PR review where root cause, provenance, and fix quality must be defended | inline role below |
+
+The `complexity`, `design`, and `accessibility` rubrics are owned by their home skills — read the file named above rather than duplicating it here. If that skill is not installed, run the lens inline from the role's one-line "Use for" scope.
 
 ## Handoffs
 
