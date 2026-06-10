@@ -1,3 +1,5 @@
+> **Moved:** this skill now lives in [cbzehner/skills](https://github.com/cbzehner/skills) under `skills/review/`. This repo is archived and read-only.
+
 # Review
 
 Run focused reviews by lens: code, architecture, complexity, security, design, docs, spec fit, or release readiness. Findings come first, with evidence tied to files and lines.
